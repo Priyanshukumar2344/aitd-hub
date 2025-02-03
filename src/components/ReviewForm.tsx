@@ -7,11 +7,10 @@ import { Star } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
 
 interface ReviewFormProps {
-  resourceId: number
   onReviewSubmit: (rating: number, comment: string) => void
 }
 
-export function ReviewForm({ resourceId, onReviewSubmit }: ReviewFormProps) {
+export function ReviewForm({ onReviewSubmit }: ReviewFormProps) {
   const [rating, setRating] = useState(0)
   const [comment, setComment] = useState("")
   const { toast } = useToast()
