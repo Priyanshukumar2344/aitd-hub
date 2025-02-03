@@ -29,30 +29,30 @@ export default function RootLayout({
                     <span className="text-xl font-bold text-gray-800">AITD Resource Hub</span>
                   </div>
                   <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                    <a
+                  <Link
                       href="/"
                       className="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                       Home
-                    </a>
-                    <a
+                      </Link>
+                    <Link
                       href="/upload"
                       className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                       Upload
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/browse"
                       className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                       Browse
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/verify"
                       className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                       Verify
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:items-center">
